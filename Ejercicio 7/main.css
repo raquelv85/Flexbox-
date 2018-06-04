@@ -1,0 +1,87 @@
+
+h4, p{
+  margin: 0;
+}
+.contenedor{
+
+  width: 800px;
+  border: 1px solid grey;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor-izq{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuadrado{
+  width: 100px;
+  height: 80px;
+  background-color: lightgrey;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+.caja-texto{
+  margin: 20px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.botones{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.boton1{
+  width: 100px;
+  height: 20px;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.boton2{
+  width: 100px;
+  height: 20px;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.puntuacion{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+
+}
+
+.caja-puntos{
+  width: 30px;
+  height: 30px;
+  background-color: lightgrey;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+.comentarios{
+  display: flex;
+}
+
+.estrella{
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}

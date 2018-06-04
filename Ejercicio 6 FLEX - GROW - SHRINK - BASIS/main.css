@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  background-color: lightblue;
+  text-align: center;
+  height: 100px;
+}
+
+main {
+  background-color: lightgray;
+  text-align: center;
+  flex: 1;
+  display: flex;
+}
+
+.aside1 {
+  background-color: lightsalmon;
+  flex-basis: 500px;
+}
+
+.central {
+  background-color: lightgrey;
+}
+
+.aside2 {
+  background-color: lightgreen;
+  flex-basis: 500px;
+}
+
+footer {
+  background-color: lightpink;
+  text-align: center;
+  height: 100px;
+}
