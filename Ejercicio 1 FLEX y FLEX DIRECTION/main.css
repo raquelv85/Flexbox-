@@ -1,0 +1,35 @@
+
+.container-column{
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+
+.container-row {
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.style-column{
+
+    background-color: lightblue;
+    border: .5px solid #9E9E9E;
+}
+
+.style-row{
+
+    background-color: lightblue;
+    border: .5px solid #9E9E9E;
+    width: 20px;
+    text-align: center;
+
+}

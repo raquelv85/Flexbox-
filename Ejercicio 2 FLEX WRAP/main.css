@@ -1,0 +1,19 @@
+.container{
+    width: 650px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.style-item{
+
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: .5px solid #9E9E9E;
+
+
+}
