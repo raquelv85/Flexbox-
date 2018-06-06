@@ -1,0 +1,62 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header{
+
+  background-color: black;
+
+
+}
+
+.nav{
+  width: 560px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.titulo{
+  color: white;
+}
+.opciones{
+  color:white;
+  display: flex;
+  align-items: center;
+}
+
+.opcion{
+  margin:0 5px 0 5px;
+}
+
+.main{
+  width: 560px;
+  margin: auto;
+  flex: 1;
+}
+
+.caja-titulo{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.titulo-footer{
+  color:black;
+}
+
+.opciones-footer{
+  color:black;
+  display: flex;
+  align-items: center;
+}
